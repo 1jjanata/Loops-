@@ -1,13 +1,12 @@
 // For-loop functions
 
 function positiveIntSum(limit){
-let sum = 0;
-let n = 100; 
-for (let i = 1; i < = n;i + +){
-    sum = sum + i i 
-}
+    let sum = 0;
 
-
+    for (let i = 1; i <= limit;i++){
+        sum = sum + i;
+    }
+    return sum;
 
 }
 
@@ -38,3 +37,4 @@ while(k<=max){
 
 
 //Later copy paste the checking code below here.
+console.log(positiveIntSum(2000000))
